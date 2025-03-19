@@ -6,6 +6,6 @@ if(ESP_PLATFORM)
 
     idf_component_register(SRCS ${SOURCES}
                            INCLUDE_DIRS "src"
-                           REQUIRES arduino)
+                           REQUIRES arduino-esp32)
     return()
 endif()
